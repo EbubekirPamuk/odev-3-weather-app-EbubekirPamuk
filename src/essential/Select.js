@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_KEY = process.env.REACT_APP_API_KEY;
+const API_KEY = "c66833ca5d4049e4ae2a55828fc515de";
 const API_URL = "https://api.weatherbit.io/v2.0/forecast/daily?city=";
 
 export const Select = async (selectKey) => {

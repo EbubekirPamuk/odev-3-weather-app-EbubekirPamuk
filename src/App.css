@@ -1,3 +1,88 @@
-.App {
-    text-align: center;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 54, 9, 0.7819502801120448) 51%, rgba(0, 212, 255, 1) 100%);
+    }
+    
+    .App {
+        position: relative;
+        top: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .form {
+        text-align: center;
+        position: absolute;
+        top: -100px;
+        left: 566px;
+    }
+    
+    select {
+        width: 240px;
+        height: 50px;
+        font-size: 25px;
+        border-radius: 10px;
+        font-family: "Roboto";
+        background-color: #717f70;
+    }
+    
+    select:focus {
+        outline: none;
+    }
+    
+    .forecastsContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        font-weight: 900;
+        font-family: "Roboto";
+    }
+    
+    .forecastContainer {
+        width: 150px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgb(184, 178, 178);
+        border-radius: 10px;
+        box-shadow: 15px 16px 24px -8px;
+    }
+    
+    .forecastContainer-currentDay {
+        width: 170px;
+        height: 210px;
+        border: 1px solid rgb(250, 123, 123);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 15px 16px 24px -8px;
+    }
+    
+    .date {
+        color: rgb(255, 255, 255);
+    }
+    
+    .minMax {
+        max-width: 100%;
+        display: flex;
+    }
+    
+    .max {
+        margin-right: 15px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .min {
+        color: rgb(255, 255, 255);
+    }
